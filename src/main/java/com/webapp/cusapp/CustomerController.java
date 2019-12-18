@@ -54,7 +54,6 @@ public class CustomerController {
 	
 	@GetMapping("/demo")
 	public String demo() {
-		System.out.println("code modified");
 		return "demo app working..";
 	}
 	 @GetMapping(value = "/getCustDetails")
